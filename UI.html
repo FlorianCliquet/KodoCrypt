@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryption and Decryption</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encryption and Decryption</h1>
+        <textarea id="inputText" placeholder="Enter text to encrypt/decrypt"></textarea>
+        <input type="password" id="passphrase" placeholder="Enter passphrase">
+        <div class="buttons">
+            <button onclick="encrypt()">Encrypt</button>
+            <button onclick="decrypt()">Decrypt</button>
+        </div>
+        <textarea id="outputText" readonly placeholder="Result will appear here"></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
