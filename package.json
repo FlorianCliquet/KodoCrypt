@@ -1,0 +1,14 @@
+{
+    "name": "kodokcrypt",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "build": "electron-builder"
+    },
+    "author": "Florian Cliquet",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^13.2.1"
+    }
+}

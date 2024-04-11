@@ -9,8 +9,7 @@ function createWindow() {
         }
     });
 
-    // Load your HTML file.
-    win.loadFile('UI.html');
+    win.loadFile('./src/UI.html');
 }
 
 app.whenReady().then(createWindow);
